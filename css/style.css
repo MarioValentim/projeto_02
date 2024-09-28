@@ -1,0 +1,16 @@
+:root{
+    --Branco: #ffffff;
+    --Amarelo_ouro: #FDC807;
+    --Preto: 100%: #000000;
+    --Preto: 90%: #202226;
+}
+
+#container{
+    width: 100%;
+}
+
+#banner img{ 
+    height: 100px;
+    width: 100px;
+
+}
