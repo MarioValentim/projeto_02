@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap ');
+
+
 :root{
     --Branco: #ffffff;
     --Amarelo_ouro: #FDC807;
@@ -5,12 +8,40 @@
     --Preto: 90%: #202226;
 }
 
-#container{
-    width: 100%;
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat';
 }
 
-#banner img{ 
-    height: 100px;
-    width: 100px;
-
+#banner{
+    width: 100%;
+    height: 52vw;
+    background-image: url('/img/header.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mensagem{
+    margin-right: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+#mensagem h1{
+    color: var(--Branco);
+    font-size: 52px;
+    text-align: left;
+}
+#mensagem p1{
+    color: var(--Branco);
+    font-size: 30px;
+    
+}
+#mensagem p2{
+    color: var(--Branco);
+    font-size:25px ;
+    
+    
 }
