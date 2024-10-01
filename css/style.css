@@ -21,53 +21,43 @@ body{
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
-
 }
 #mensagem{
-    margin-right: 50%;
-    margin-left: 20%;
-    margin-top: 10%;
-    margin-bottom: 20%;
-
+    margin-left: 7%;
+    width: 800px;
+    height: fit-content;
 }
 #mensagem h1{
     color: var(--Branco);
     font-size: 52px;
     text-align: left;
 }
-#mensagem p1{
-    color: var(--Branco);
-    font-size: 30px;
 
-    
-}
-#mensagem p2{
+#mensagem p{
     color: var(--Branco);
     font-size:25px ;
     
 }
-#cx_email{
-    height: 30px;
-    width: 100%;
-    margin-top: 50px;
-}
+
 .input_aumentado{
     width: 100%;
-    height: 170%;
-    font-size: 150%;
+    font-size: 25px;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .btn{
     background: var(--Amarelo_ouro);
-    width: 102%;
+    width: 100%;
     height:100px;
     font-size: 170%;
     margin-top: 50px;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
-    line-height: 100px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     
 }
@@ -144,7 +134,7 @@ body{
     width: 100%;
     background-color:#202226;
     margin-top: -20px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 
 }
 #conteudo_secao_03 h1 {
@@ -175,7 +165,7 @@ body{
     height: 450px;
     width: 100%;
     background-color:#18191b;
-    margin-top: 0px;
+    margin-top: 15px;
     margin-bottom: -20px;
     
 }
@@ -184,7 +174,7 @@ body{
     margin-left: 35%;
     text-align:left;
     color: var(--Branco);
-    margin-top: -70px;
+    margin-top: -120px;
     margin-right: 20%;
     width: 45%;
 
@@ -206,6 +196,8 @@ body{
     display: flex;
     width: 100%;
     height: 900px;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     margin-top: 8px;
     background-color:#202226;
@@ -215,36 +207,31 @@ body{
 }
 #imagem_05{
     background-image: url(/img/autora.png);
-    width: 100%;
-    height: 55%;
-    border-radius: 200px 200px 200px 200px;
-    margin-left: 240px;
-    margin-top: 180px;
-    float: left;
-    
-   
-    
+    background-size: cover;
+    min-width: 450px;
+    min-height: 450px;
+    border-radius: 450px;
+    margin-left: 40px;
+    margin-top: 80px;
+        
 }    
 #conteudo_secao_05{
     text-align: left;
     font-size: 22px;
     margin-top: 150px;
-    
+    width: 500px;
     
 }
 #conteudo_secao_05 h1{
     font-size: 42px;
     width: 600px;
     color: var(--Branco);
-    margin-right: 450px;
-    margin-left: 150px;
+
 
 }
 #conteudo_secao_05 p{
     font-size: 26px;
     color: var(--Branco);
-    margin-right: 450px;
-    margin-left: 150px;
     
 }
 #secao_06{
@@ -282,10 +269,10 @@ body{
     transform: scale(1.1);
 }
 .imagem6 {
-    margin-left: 60%; 
-    width: 250%; 
-    height: 110%;
+    width: 400px; 
+    height: 600px;
     margin-top: -750px;
+    
 }
 #copyright{
     width: 200%;
